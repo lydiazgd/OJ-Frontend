@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Potato</title>
+    <link href="./precom/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./precom/css/append.css" rel = "stylesheet">
+    <link href= "./precom/css/carousel.css" rel="stylesheet">
+    <script src = "./precom/js/ie-emulation-modes-warning.js"></script>
+    <script src = "./precom/js/jquery-3.1.0.min.js"></script>
+    <script src = "./precom/js/appendjquery.js"></script>
+  </head>
+  <body>
+  <!--nav start-->
+  <div id = "whole">
+     <nav class = "navbar navbar-default">
+        <div class = "container-fluid">
+            <div class = "navbar-header">
+               <a class = "navbar-brand" herf = ""><p id = "logo">Potato</p></a> 
+            </div>
+            <div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
+                <ul class = "nav navbar-nav">
+                    <li class = "active"><a href = "index.html">Home<span class = "sr-only">(current)</span></a></li>
+                    <li><a href = "problemlist.html">Problems</a></li>
+                    <li><a href = "status.html">Status</a></li>
+                </ul>
+              <div id = "consumer">
+               <button id = "reg2" class = "btn"></button>
+               &nbsp;
+               &nbsp;
+               <button id = "reg" class = "btn"></button>
+              </div> 
+            </div>
+        </div>
+
+     </nav>
+    <!--nav end-->
+
+    <!--carousel-->
+    <div class = "jumbotron">
+    <div class = "container">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="Images/lion.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Fighting like a lion!</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="Images/people.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+               <h1>Communicate with people in the world!</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="Images/uni.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+               <h1>Get in touch with different universities.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+     <!--carousel end -->
+     <div class = "page-header">
+        <h1>Potato OJ<small>these are for you</small></h1>
+     </div>
+     <!--pictures start-->
+     <div class = "row">
+        <div class = "col-sm-6 col-md-4">
+          <div class = thumbnail>
+            <img src = "Images/first.png"/>
+            <div class="caption">
+              <h3 class = "text-info">Different languages</h3>
+              <p><a href ="problemlist.html" class = "btn btn-primary" role = "button">Go</a></p>
+            </div>
+        </div>
+     </div>
+     <!--first picture end-->
+     <div class="col-sm-6 col-md-4">
+      <div class = "thumbnail">
+        <img src = "Images/second.png"/>
+        <div class = "caption">
+          <h3 class = "text-warning">Best Complier</h3>
+          <p><a href = "problemlist.html" class = "btn btn-primary" role = "button">Go</a></p>
+        </div>
+      </div>
+     </div>
+     <!--second picture end-->
+     <div class = "col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src = "Images/third.png"/>
+        <div class = "caption">
+          <h3 class = "text-danger">Interesting Problem</h3>
+          <p><a href ="problemlist.html" class="btn btn-primary" role = "button">Go</a></p>
+        </div>
+      </div>
+     </div>
+     <!--third picture end-->
+    </div>
+    </div>
+    </div>
+    <!--end of the page--> 
+    <footer id = "indexfooter">
+        <p class = "pull-right"><a href = "#" class = "btn btn-default" role = "button">Back to top</a></p>
+    </footer>
+  </div>
+    <!--start of the register-->
+    <div id = "divmain">
+    <h3>Potato online OJ</h3>
+    <p>Username:</p> 
+    <input name= "usernameori"type = "text" required="required"/>
+    <p>Password:</p> 
+    <input name= "passwordori"type = "password" required="required"/>
+    <p>Email:</p> 
+    <input name= "email"type = "email" required = "required"/>
+    <button id = "submit1" type = "submit" class = "btn btn-primary">Log in</button>
+    &nbsp;
+    &nbsp;
+    <a id = "close" role = "button">
+    <span class = "glyphicon glyphicon-remove" arain-hidden = "true"></span>
+    </a>
+   </div>
+    <!--end of the register-->
+    <!--start of the login -->
+    <div id = "divmain2">
+       <h3>Potato online OJ</h3>
+       <p>Username:</p>
+       <input class = "form-control" type = "text" name = "username" required="required"/>
+       <p>Password:</p> 
+       <input class = "form-control" type = "password" name = "password" required="required"/>
+       <button id = "submit2"type = "submit" class = "btn btn-primary">Log in</button>
+       &nbsp;
+       &nbsp;
+    <a id = "close2" role = "button">
+    <span class = "glyphicon glyphicon-remove" arain-hidden = "true"></span>
+    </div>
+    <!--end of the login-->
+    <script src="./precom/js/jquery.min.js"></script>
+    <script src="./precom/js/bootstrap.js"></script>
+    <script src="./precom/js/holder.min.js"></script>
+    <script src="./precom/js/ie10-viewport-bug-workaround.js"></script>
+    
+  </body>
+</html>
