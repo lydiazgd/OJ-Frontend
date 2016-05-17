@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Status</title>
+    <script src = "./precom/js/jquery-3.1.0.min.js"></script>
+    <script src = "./precom/js/moment.js"></script>
+    <link href="./precom/css/append.css" rel = "stylesheet">
+    <link rel="stylesheet" type="text/css" href="./precom/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="./precom/css/append.css"/>
+    <script src="./precom/js/appendjquery.js"></script>
+    
+</head>
+<body>
+<div id = "whole">
+   <nav class = "navbar navbar-default">
+    <div class = "container-fluid">
+      <div class = "navbar-header">
+       <a class = "navbar-brand" herf = ""><p id = "logo">Potato</p></a> 
+     </div>
+     <div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
+      <ul class = "nav navbar-nav">
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "problemlist.html">Problems<span class = "sr-only">(current)</span></a></li>
+        <li class="active"><a href = "status.html">Status</a></li>
+      </ul>
+       <div id = "consumer">
+          <button id = "reg2" class = "btn"></button>
+          &nbsp;
+          &nbsp;
+          <button id = "reg" class = "btn"></button>
+       </div> 
+  </div>
+</div>
+</nav>
+<div class = "backtable">
+    <p>Judge Status &nbsp;&nbsp;&nbsp;&nbsp; <span class = "glyphicon glyphicon-list"></span></p>
+  </div>
+  <div id="status">
+  
+  </div>
+   
+</div>
+<!--nav end-->
+<!--start of the register-->
+    <div id = "divmain">
+    <h3>Potato online OJ</h3>
+    <p>Username:</p> 
+    <input name= "usernameori"type = "text" required="required"/>
+    <p>Password:</p> 
+    <input name= "passwordori"type = "password" required="required"/>
+    <p>Email:</p> 
+    <input name= "email"type = "email" required = "required"/>
+    <button id = "submit1" type = "submit" class = "btn btn-primary">Log in</button>
+    &nbsp;
+    &nbsp;
+    <a id = "close" role = "button">
+    <span class = "glyphicon glyphicon-remove" arain-hidden = "true"></span>
+    </a>
+   </div>
+    <!--end of the register-->
+    <!--start of the login -->
+    <div id = "divmain2">
+       <h3>Potato online OJ</h3>
+       <p>Username:</p>
+       <input class = "form-control" type = "text" name = "username" required="required"/>
+       <p>Password:</p> 
+       <input class = "form-control" type = "password" name = "password" required="required"/>
+       <button id = "submit2"type = "submit" class = "btn btn-primary">Log in</button>
+       &nbsp;
+       &nbsp;
+    <a id = "close2" role = "button">
+    <span class = "glyphicon glyphicon-remove" arain-hidden = "true"></span>
+    </div>
+    <!--end of the login-->  
+ 
+<script src="./precom/js/status.js"></script>
+<script src="./precom/js/jquery.min.js"></script>
+<script src="./precom/js/bootstrap.min.js"></script>
+
+</body>
+</html>
