@@ -1,0 +1,334 @@
+#logo{
+	font-size: 30px;
+	font-family: cursive;
+	color:#FF7F50;
+}
+#lion {
+	 width:1020px;
+	 height:600px;
+}
+#end {
+	text-decoration: none;
+}
+#divmain {
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+	height:20%;
+	width:20%;
+  position:absolute;
+	border-radius: 5px;
+  background-color: white;
+  border-color: #DCDCDC;
+  box-shadow: 2px 2px 2px 2px grey;
+  display:none;
+  left:37%;
+  top:29%;
+}
+
+#divmain button {
+	margin-left: 40%;
+	margin-top: 5%;
+}
+#question_number {
+	width:30%;
+  text-align: center;
+}
+#divmain p {
+	font-size: 15px;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-size: 18px;
+}
+#divmain input {
+	margin-left: 10%;
+  border-radius: 5px;
+  box-shadow: none;
+  width:80%;
+	height:10%;
+}
+#divmain h3 {
+	text-align:center;
+}
+#close {
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#divmain2 {
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+	height:20%;
+	width:20%;
+  position:absolute;
+	border-radius: 5px;
+  background-color: white;
+  border-color: #DCDCDC;
+  box-shadow: 2px 2px 2px 2px grey;
+  display:none;
+  left:37%;
+  top:29%;
+}
+#divmain2 button {
+	margin-left: 40%;
+	margin-top: 5%;
+}
+#divmain2 p {
+	font-size: 15px;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-size: 18px;
+}
+#divmain2 input {
+	margin-left: 10%;
+  border-radius: 5px;
+  box-shadow: none;
+  width:80%;
+	height:10%;
+}
+#divmain2 h3 {
+	text-align:center;
+}
+#close2 {
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#consumer {
+	position: absolute;
+	right:0px;
+	bottom: 15%;
+  padding-right: 3%;
+}
+#table {
+	position: absolute;
+	width:75%;
+  left: 15%;
+  padding-bottom: 5%;
+}
+#table div {
+	background-color: #FFE4E1;
+	width: 220px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+  padding-left: 7px;
+  padding-top: 7px;
+}
+.big {
+	height:45px;
+	width:500px;
+	text-align: center;
+}
+.mid {
+	height:45px;
+	width:200px;
+	text-align: center;
+	font-size: 10px;
+}
+.small {
+	height:45px;
+	width:60px;
+	text-align: center;
+	font-size: 14px;
+}
+.title {
+	font-size: 20px;
+	text-align: center;
+}
+#problemd {
+	display: absolute;
+  width:60%;
+  margin-left:22%;
+}
+.panel-heading p {
+	text-align: center;
+	font-size: 30px;
+}
+.nextbutton {
+	margin-left: 300px;
+}
+.panel-heading h1 {
+	font-size: 20px;
+}
+.footer {
+	font-size: 17px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+#textarea {
+	position: absolute;
+  top:10%;
+  left:25%;
+  height:100%;
+  width:70%;
+}
+#pnumber {
+	margin-bottom: 10px;
+	width:200px;
+}
+.CodeMirror {
+	font-size: 15px;
+	font-family: sans-serif;
+	border-radius: 7px;
+	height:100%;
+	width:80%;
+  margin-bottom: 50px;
+}
+.CodeMirror-cursor {
+	width:5px;
+  background-color: grey;
+}
+.dropdown {
+	margin-bottom:20px;
+
+}
+#dropdownMenu1 span {
+	font-size:15px;
+}
+#scode {
+	position: absolute;
+	margin-top:1%;
+}
+#status {
+	height:75%;
+	width:95%;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom:5%; 
+}
+.chart {
+	position: absolute;
+	height: 400px;
+	width:  600px;
+  right:20px;
+  top:100px;
+}
+#userdescription {
+ position: absolute;
+ top:100px;
+ left:60px;
+ width:40%;
+}
+#userdescription {
+	font-size: 35px;
+  font-family: cursive;
+}
+#userdescription span{
+  margin-left: 20%
+	font-size: 25px;
+}
+#nametip{
+	position: relative;
+}
+.regtime {
+	margin-top: 30px;
+	font-size: 20px;
+}
+#uppanel {
+	position: absolute;
+	top:60%;
+	left:3.5%;
+  width: 41%;
+}
+#downpanel {
+	position: absolute;
+	left:3.5%;
+	bottom: 3.5%;
+  width: 41%;
+}
+.Barchart {
+	width: 400px;
+	height: 400px;
+}
+.Radarchart {
+	position: absolute;
+	top:20px;
+	right: 20px;
+	width: 400px;
+	height: 400px;
+}
+.linechart {
+	position: absolute;
+	bottom: 20px;
+	left:300px;
+	width: 800px;
+	height: 400px;
+}
+#vicenav {
+  margin-bottom: 5%;
+  left:22.3%;
+	width: 59.3%;
+}
+.problemd h2 {
+	text-align: center;
+}
+.problemd div {
+	border-bottom: 1px solid #F5F5F5;
+	padding-top: 25px;
+}
+.time_limit {
+	text-align: center;
+	font-size: 20px
+	font-weight:2px;
+}
+.problemd h3 {
+	font-weight: 1px;
+	font-family: sans-serif;
+}
+.description {
+	font-size: 20px;
+	font-family: sans-serif;
+	
+}
+.inner {
+	border-style: 5px solid;
+	border-color: #DCDCDC;
+	background-color: #F5F5F5;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+pre {
+	border:none;
+}
+.backtable {
+	background-color: #F5F5F5;
+	height:50px;
+	width: 250px;
+	margin-left: 2.5%;
+	padding-left: 0.5%;
+	padding-top: 0.5%;
+	border-radius: 5px;
+
+}
+.backtable p {
+	font-size: 25px;
+  
+}
+
+#indexfooter {
+	position: absolute;
+	margin-bottom: 0.5%;
+	right: 1.5%;
+}
+
+
+#profooter {
+	position: absolute;
+	bottom:0.5%;
+	right:0%;
+}
+
+.basicstyle {
+ text-align: center;
+ font-size: 20px;
+}
+.textstyle {
+	text-align: center;
+}
+
